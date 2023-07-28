@@ -6,7 +6,7 @@ In this exciting project, I explored the [European Soccer Database](https://www.
 
 1. **Data Download:** I downloaded the European Soccer Database in SQLite format from Kaggle using [this link](https://www.kaggle.com/datasets/hugomathien/soccer).
 
-2. **CSV Creation:** Utilizing the `csv_maker.py` script, I extracted data from 7 tables in the SQLite file and uploaded CSV files for 5 of them. So,you have to use this file to create `match.csv` and `player_attributes.csv` file for the next process.
+2. **CSV Creation:** Utilizing the `csv_maker.py` script, I extracted data from 7 tables in the SQLite file and uploaded CSV files for 5 of them. So,`you have to use this file to create `match.csv` and `player_attributes.csv` file for the next process.`
 
 3. **PostgreSQL Database Creation:** I created a PostgreSQL database using my username and other relevant details. No table creation was required at this stage, but I ensured that all datasets were available in the Datasets folder. By running the `table_creation.sql` file, I efficiently created and exported the necessary tables into my PostgreSQL database.
 
